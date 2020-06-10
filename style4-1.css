@@ -1,0 +1,36 @@
+header {
+    width: 1000px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    background-color: #a52a2a;
+      }
+      article {
+        width: 1000px;
+        font-size: 18px;
+        margin: auto;
+      }
+      .italic {
+        font-style: italic;
+       }
+       .bold {
+        font-weight: bold;
+       }
+       footer {
+        width: 1000px;
+        margin: auto;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        background-color: black;
+      }
+      .center {
+        text-align: center;
+      }
+      .border{
+        border-style:dashed
+      }
