@@ -1,0 +1,68 @@
+header {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+td {
+    text-align: center;
+  }
+  .bacgroundtable {
+    background-color: black;
+      }
+
+       
+       .bacgroundtable1 {
+        background-color: #7d0909;
+        text-align: left;
+        vertical-align: top;
+        color: #db450d;
+          }
+          .bacgroundtable2 {
+            text-align: left;
+            vertical-align: top;
+              }
+              .bacgroundtable3 {
+                background-color: white;
+                text-align: left;
+                vertical-align: top;
+                color:black;
+                  }
+
+article {
+            width: 1000px;
+            margin: auto;
+            text-align: left;
+            color: white;
+            vertical-align: top;
+  }
+ 
+  #left { text-align: left; }
+  #center { 
+      vertical-align: top; 
+      text-align: center; 
+      background-color:#bdbdbd;}
+
+  #center1 { text-align: center;}
+
+
+ header a{
+
+    text-decoration:none;
+    color: white;
+
+    }
+
+article a{
+
+          color: #db450d;
+    
+     }
+
+     footer {
+        width: 1000px;
+        margin: auto;
+        color: white;
+        text-align: center;
+        background-color:#e95b11;
+        height: 20px;
+      }
