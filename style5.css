@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "OpenSans";
+      src: url("fonts/OpenSans.ttf");
+      font-weight: normal;
+      font-style: normal;
+    }
+@font-face {
+    font-family: "OpenSansSemibold";
+          src: url("fonts/OpenSansSemibold.ttf");
+          font-weight: normal;
+          font-style: normal;
+        }
+
+.logo {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 120px;
+    left: 10%;
+    right: 10%;
+}
+
+.text {
+    font-family: "OpenSans";
+    font-size: 20px;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 214px;
+    left: 10%;
+    right: 10%;
+    color: white;
+}
+
+.line {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 243px;
+    left: 10%;
+    right: 10%;
+}
+.logo2 {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 271px;
+    left: 10%;
+    right: 10%;
+    }
+.copyright {
+    font-family: "OpenSansSemibold";
+    font-size: 15px;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    bottom: 20px;
+    left: 10%;
+    right: 10%;
+    color: white;
+}
+.colortext {
+    color:#00c7fc;
+  }
+
+footer {
+ position: fixed; /* Фиксированное положение */
+ left: 0; bottom: 0; /* Левый нижний угол */
+ background: #121116; /* Цвет фона */
+ width: 100%; /* Ширина слоя */
+ height: 420px;
+}
