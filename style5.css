@@ -47,7 +47,11 @@
     top: 271px;
     left: 10%;
     right: 10%;
-    }
+        }
+.logo3:hover {
+    opacity: 0.5;
+}
+        
 .copyright {
     font-family: "OpenSansSemibold";
     font-size: 15px;
