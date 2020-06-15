@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "ProximaNovaRegular";
+    src: url("fonts/ProximaNovaRegular.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+  font-family: "ProximaNovaLight";
+        src: url("fonts/ProximaNovaLight.otf");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+.services{
+  width: auto;
+  height: 289px;
+  background-color:white;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+}
+.servicesx3{
+  width: 900px;
+  height: 168px;
+  background-color: white;
+  margin: auto;  
+}
+.service {
+  width: 300px;
+  display: block;
+
+  float:left;
+}
+
+.service-icon {
+  position:relative
+  display: block;
+}
+
+.service-title {
+  text-align: center;
+  font-family: "ProximaNovaRegular";
+  margin-top: 10px;
+}
+.service-description {
+  font-family: "ProximaNovaLight";
+  text-align: center;
+  padding: 10px;
+  color: #9d9d9d;
+  font-family: ;
+}
+
+.circle {
+  width: 64px;
+  height: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 31px;
+  border: 1px solid #1275b9;
+  display: block;
+}
+.circle:hover {
+background-color: #1275b9;
+}
+
+a.tablet2 {
+  background-image: url(img6/Tablet2blue.png);
+}
+a.tablet2:hover {
+  background-image: url(img6/Tablet2white.png);
+}
+
+
+/* a.rollover {
+  background: url(img6/Tablet2.png); /* Путь к файлу с исходным  рисунком */
+  display: block; /* Рисунок как блочный элемент */
+  width: 24px; /* Ширина рисунка в пикселах */
+  height: 30px; /* Высота рисунка */
+  position:absolute;top:88px;left:968px;
+ }
+ a.rollover:hover {
+  background-position: 0 -30px; /* Смещение фона */
+ }
+ .Shape_189 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(18, 117, 185);
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  left: 419px;
+  top: 53px;
+  width: 69px;
+  height: 67px;
+  z-index: 7;
+} */
