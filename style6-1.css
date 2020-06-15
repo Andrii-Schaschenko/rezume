@@ -29,7 +29,6 @@
 .service {
   width: 300px;
   display: block;
-
   float:left;
 }
 
@@ -57,19 +56,22 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 31px;
-  border: 1px solid #1275b9;
+  background-color: #2a69a6;
+  border: 1px solid #2a69a6;
+  
   display: block;
-}
+  text-align: center;
+    
+  }
 .circle:hover {
-background-color: #1275b9;
+background-color: white;
+background: url(img6/Tablet2blue.png) no-repeat;
+background-position: center;
+
 }
 
-a.tablet2 {
-  background-image: url(img6/Tablet2blue.png);
-}
-a.tablet2:hover {
-  background-image: url(img6/Tablet2white.png);
-}
+
+
 
 
 /* a.rollover {
