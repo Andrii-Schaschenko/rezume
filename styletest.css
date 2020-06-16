@@ -1,0 +1,13 @@
+.Tablet {
+    background: url(img6/Tablet2blue.png);
+    position: absolute;
+    left: 443px;
+    top: 73px;
+    width: 24px;
+    height: 30px;
+    z-index: 8;
+  }
+  .Tablet:hover {
+      background: url(img6/Tablet2white.png);
+  }
+  

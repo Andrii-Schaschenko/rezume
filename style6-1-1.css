@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "ProximaNovaRegular";
+      src: url("fonts/ProximaNovaRegular.ttf");
+      font-weight: normal;
+      font-style: normal;
+    }
+  @font-face {
+    font-family: "ProximaNovaLight";
+          src: url("fonts/ProximaNovaLight.otf");
+          font-weight: normal;
+          font-style: normal;
+        }
+  
+  .services{
+    width: auto;
+    height: 289px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  
+  }
+  .servicesx3{
+    width: 900px;
+    height: 168px;
+    
+    margin: auto;  
+  }
+  .service {
+    width: 300px;
+    display: block;
+    float:left;
+  }
+  
+  .service-icon {
+    position:relative
+    display: block;
+    background-position: center;
+  }
+
+  .circle1 {
+    width: 64px;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 31px;
+    background: url(img6/Tablet2white.png) no-repeat;
+    background-position: center;
+    background-color: #2a69a6;
+    border: 1px solid #2a69a6;
+    display: block;
+    text-align: center;
+    }
+
+  .circle1:hover {
+  background: url(img6/Tablet2blue.png) no-repeat;
+  background-position: center;
+  background-color: white;
+  }
+
+  .circle2 {
+    width: 64px;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 31px;
+    background: url(img6/Settingswhite.png) no-repeat;
+    background-position: center;
+    background-color: #2a69a6;
+    border: 1px solid #2a69a6;
+    display: block;
+    text-align: center;
+    }
+
+  .circle2:hover {
+  background: url(img6/Settingsblue.png) no-repeat;
+  background-position: center;
+  background-color: white;
+  }
+
+  .circle3 {
+    width: 64px;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 31px;
+    background: url(img6/Dashboardwhite.png) no-repeat;
+    background-position: center;
+    background-color: #2a69a6;
+    border: 1px solid #2a69a6;
+    display: block;
+    text-align: center;
+    }
+
+  .circle3:hover {
+  background: url(img6/Dashboardblue.png) no-repeat;
+  background-position: center;
+  background-color: white;
+  }
+
+
+  .service-title {
+    text-align: center;
+    font-family: "ProximaNovaRegular";
+    margin-top: 10px;
+  }
+  .service-description {
+    font-family: "ProximaNovaLight";
+    text-align: center;
+    padding: 10px;
+    color: #9d9d9d;
+    font-family: ;
+  }
+  
+
+  
+  
+  
+  
+  
