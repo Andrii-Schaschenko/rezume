@@ -14,7 +14,7 @@
 .services{
   width: auto;
   height: 289px;
-  background-color:white;
+  
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -23,7 +23,7 @@
 .servicesx3{
   width: 900px;
   height: 168px;
-  background-color: white;
+  
   margin: auto;  
 }
 .service {
@@ -35,7 +35,69 @@
 .service-icon {
   position:relative
   display: block;
+  background-position: center;
 }
+
+.circle1 {
+  width: 64px;
+  height: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 31px;
+  background: url(img6/Tablet2white.png) no-repeat;
+  background-position: center;
+  background-color: #2a69a6;
+  border: 1px solid #2a69a6;
+  display: block;
+  text-align: center;
+  }
+
+.circle1:hover {
+background: url(img6/Tablet2blue.png) no-repeat;
+background-position: center;
+background-color: white;
+}
+
+.circle2 {
+  width: 64px;
+  height: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 31px;
+  background: url(img6/Settingswhite.png) no-repeat;
+  background-position: center;
+  background-color: #2a69a6;
+  border: 1px solid #2a69a6;
+  display: block;
+  text-align: center;
+  }
+
+.circle2:hover {
+background: url(img6/Settingsblue.png) no-repeat;
+background-position: center;
+background-color: white;
+}
+
+.circle3 {
+  width: 64px;
+  height: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 31px;
+  background: url(img6/Dashboardwhite.png) no-repeat;
+  background-position: center;
+  background-color: #2a69a6;
+  border: 1px solid #2a69a6;
+  display: block;
+  text-align: center;
+  }
+
+.circle3:hover {
+background: url(img6/Dashboardblue.png) no-repeat;
+background-position: center;
+background-color: white;
+}
+
 
 .service-title {
   text-align: center;
@@ -47,100 +109,11 @@
   text-align: center;
   padding: 10px;
   color: #9d9d9d;
-
-}
-
-.icon1 {
-  margin-left: auto;
-  margin-right: auto;
-  background-position: center;
-}
-
-.icon1:hover {
-  opacity: 0;
-  width: 100px;
-  height: 100px;
-}
-.icon2 {
-  margin-left: auto;
-  margin-right: auto;
-  background-position: center;
-  text-align: center;
-}
-
-.icon2:hover {
-  opacity: 0;
-  width: 100px;
-  height: 100px;
-}
-.icon3 {
-  margin-left: auto;
-  margin-right: auto;
-  background-position: center;
-  text-align: center;
-}
-
-.icon3:hover {
-  opacity: 0;
-  width: 100px;
-  height: 100px;
-}
-
-.circle1 {
-  width: 64px;
-  height: 64px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 31px;
-  background-color: #2a69a6;
-  border: 1px solid #2a69a6;
-  display: block;
-  text-align: center;
-    
-  }
-.circle1:hover {
-background-color: white;
-background-position: center;
-background: url(img6/Tablet2blue.png) no-repeat;
-background-position: center;
+  font-family:
 }
 
 
 
-
-.circle2 {
-  width: 64px;
-  height: 64px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 31px;
-  background-color: #2a69a6;
-  border: 1px solid #2a69a6;
-  display: block;
-  text-align: center;
-  }
-.circle2:hover {
-background-color: white;
-background: url(img6/Settingsblue.png) no-repeat;
-background-position: center;
-}
-
-.circle3 {
-  width: 64px;
-  height: 64px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 31px;
-  background-color: #2a69a6;
-  border: 1px solid #2a69a6;
-  display: block;
-  text-align: center; 
-  }
-.circle3:hover {
-background-color: white;
-background: url(img6/Dashboardblue.png) no-repeat;
-background-position: center;
-}
 
 
 
