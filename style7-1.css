@@ -1,0 +1,148 @@
+body {
+    font-family: 'Segoe UI';
+}
+.header {
+    text-align: center;
+    
+    width: 600px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-size: 48px;
+    color: #0ec8cb;
+    font-weight: lighter;
+    letter-spacing: 10px;
+}
+h4 {
+    font-size: 12px;
+    color: #898f99;
+    letter-spacing: 4px
+}
+
+h3 {
+    font-size: 18px;
+    color: #898f99;
+    font-weight: lighter;
+    font-style: normal;
+    display: block;
+}
+
+.iconboxes{
+    margin-top: 100px;
+    height: 289px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  .iconboxes3{
+    width: 940px;
+    height: 420px;
+    margin: auto;  
+    background-color: #f7f7f7;
+  }
+
+  .iconbox1, .iconbox2, .iconbox3, .iconbox4 {
+    width: 235px;
+    height: 420px;
+    float:left;
+    text-align: center;
+    }    
+
+    .icon-title {
+        margin-top: 55px;
+        font-size: 21px;
+    }
+    .icon-text {
+      margin-top: 24px;
+      font-size: 14px; 
+      padding-left: 30px;
+      padding-right: 30px;
+      font-weight: 600;
+    }
+  .icon1 {
+      width: 66px;
+      height: 66px;
+      background: url(img7/anchor.png) no-repeat;
+      background-position: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 53px;
+  }
+
+  .iconbox1:hover  {
+    background-color: #0ec8cb;
+    color: white;
+}
+
+.iconbox1:hover .icon1 {
+    background: url(img7/anchorwhite.png) no-repeat; 
+}
+
+.icon2 {
+    width: 66px;
+    height: 66px;
+    background: url(img7/Diamond.png) no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 53px;
+}
+
+.iconbox2:hover  {
+  background-color: #0ec8cb;
+  color: white;
+}
+
+.iconbox2:hover .icon2 {
+  background: url(img7/diamondwhite.png) no-repeat; 
+  width: 66px;
+  height: 66px;
+  background-position: center;
+}
+
+.icon3 {
+    width: 66px;
+    height: 66px;
+    background: url(img7/Eyeglasses.png) no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 53px;
+}
+
+.iconbox3:hover  {
+  background-color: #0ec8cb;
+  color: white;
+}
+
+.iconbox3:hover .icon3 {
+  background: url(img7/Eyeglasseswhite.png) no-repeat; 
+  width: 66px;
+  height: 66px;
+  background-position: center;
+}
+
+.icon4 {
+    width: 66px;
+    height: 66px;
+    background: url(img7/Monitor.png) no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 53px;
+}
+
+.iconbox4:hover  {
+  background-color: #0ec8cb;
+  color: white;
+}
+
+.iconbox4:hover .icon4 {
+  background: url(img7/Monitorwhite.png) no-repeat; 
+  width: 66px;
+  height: 66px;
+  background-position: center;
+}
