@@ -1,6 +1,9 @@
 body {
     font-family: 'Segoe UI';
 }
+*{
+    transition: all .1s ease-in;
+}
 .header {
     text-align: center;
     
