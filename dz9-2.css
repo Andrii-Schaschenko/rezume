@@ -1,0 +1,141 @@
+@font-face {
+font-family: 'Bazar';
+src: url(fonts/Bazar.ttf);
+}
+
+body {
+    background-image: url(img/background-91.png);
+}
+
+
+.logo {
+    font-family: 'Bazar';
+    font-size: 180px;
+    color: rgb(57, 58, 58);
+    line-height: 0.122;
+    text-align: center;
+    margin-top: 135px;
+    text-shadow: 3px 3px 0px rgb(252, 250, 247), 5px 5px 0px  rgb(57, 58, 58);
+}
+.podlogo {
+    margin-top: 110px;
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: none;
+}
+.selection {
+    font-size: 32px;
+    font-family: 'Roboto Slab', serif;
+    width: 1890px;    
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p, span {
+    color: rgb(57, 58, 58);
+}
+
+
+.filter {
+    display: flex;
+    align-items: center;
+}
+.triangle_left {
+    width: 0;
+    height: 0;
+    border-top: 24px solid transparent;
+    border-right: 25px solid #fbfaf6;
+    border-bottom: 24px solid transparent;
+    margin-left: 20px;
+}
+.rectangle {
+    width: auto;
+    height: 48px;
+    padding-right: 20px;
+    background: #fbfaf6;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 3px 3px 2px -1px rgba(0, 0, 0, 0.2);
+    
+}
+ul {
+    margin: 0px;
+    margin-top: 8px;
+    padding-left: 20px;
+    
+}
+li {
+    font-size: 22px;
+    color:#959ca3;
+    font-weight: 700;
+}
+.item {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-box {
+    border-radius: 6px;
+    background-color: rgb(251, 250, 246);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+    width: 440px;
+    height: 442px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: flex;
+
+}
+
+.item-box-in {
+    display: flex;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    flex-direction: column;
+}
+
+.item-box-in-img {
+    display: block;
+    background-color: rgb(227, 223, 215);
+    width: 424px;
+    height: 318px;
+}
+
+.item-box-in-icon {
+    border-radius: 50%;
+    background-color:rgb(251, 250, 246);
+    width: 88px;
+    height: 88px;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    
+}
+
+.text {
+    margin-top: -5px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.icon {
+    margin-left: auto;
+    margin-right: auto;
+    height: min-content;
+    width: min-content;
+    margin-top: 20px;
+}
+
+.footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
