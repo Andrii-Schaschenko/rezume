@@ -114,7 +114,7 @@ p {
 .card-image-soc:hover .twitter {
     width: 42px;
     height: 42px;
-    background-image: url(img10/twitter+.png
+    background-image: url(img10/twitter+.png);
 }
 
 .card-image-soc:hover .fb {
@@ -124,6 +124,7 @@ p {
     margin-left: 5px;
     margin-right: 5px;
 }
+
 .card-image-soc:hover .g {
     width: 42px;
     height: 42px;
