@@ -120,12 +120,12 @@ p {
 .card-image-soc:hover .fb {
     width: 42px;
     height: 42px;
-    background-image: url(img10/fb.png);
+    background-image: url(img10/facebook.png);
     margin-left: 5px;
     margin-right: 5px;
 }
 .card-image-soc:hover .g {
     width: 42px;
     height: 42px;
-    background-image: url(img10/g+.png);
+    background-image: url(img10/google.png);
 }
