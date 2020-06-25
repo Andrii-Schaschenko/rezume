@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+}
+
+header {
+    width: 1366px;
+    margin: auto;
+    position: relative;
+}
+
+.nav {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(16, 201, 195);
+    text-align: left;
+    position: absolute;
+    left: 651.937px;
+    top: 37.5px;
+  }
+
+  .line_block {
+    float: left; 
+    margin: 0 15px 15px 0; 
+    text-align: center;
+    padding: 10px;
+  }
+
+li {
+    display: inline;
+    padding-right: 20px;
+  }
+
+  .logo {
+    position: absolute;
+    left: 98px;
+    top: 38px;
+  }
+
+  .image_here {
+background-image: url(imgtest/01pageone.jpg);
+    width: 1366px;
+    height: 670px;
+    z-index: -5;
+    margin: auto;
+  }
+
+a {
+    text-decoration: none;
+    color: #191919;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #10c9c3;
+}
+
+
+h1 {
+    margin-top: 140px;
+    font-size: 38px;
+    font-weight: 50;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 50;
+}
+
+.up {
+    margin-left: 670px;
+}
+
+p {
+    color: #787878;
+    line-height: 1.556;
+}
+
+.button {
+    margin-top: 20px;
+    margin-left: 670px;
+    width: 180px;
+    height: 50px;
+    font-size: 12px;
+    background-color:#10c9c3;
+    border: 1px solid #10c9c3;
+    text-transform: uppercase;
+    line-height: 1.889;
+    color: white
+    letter-spacing: 5px;
+}
+
+.button:hover {
+    background-color: white
+}
+
+about {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 470px;
+    
+}
+.textabout {
+    width: 650px;
+}
+
+skills {
+    
+    background-color: #dde7e9;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.skilltext {
+    width: ;
+}
+
+.imgskills {
+    height: auto;
+    background-image: url(imgtest/imgskilss.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}

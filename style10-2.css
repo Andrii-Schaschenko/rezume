@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    color: #3c3c3c;
+        
+  }
+  
+  * {
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+  }
+
+
+  
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .heading {
+    margin: 0px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+  }
+
+  h1 {
+      font-size: 34px;
+  }
+
+  .heading-title {
+      margin: 0px;
+  }
+
+  .heading-description {
+    font-size: 17px;
+    margin-top: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin: -15px;
+  }
+  
+  .grid-item {
+    width: calc(100% / 4);
+    margin-top: 80px;
+
+  }
+  
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    }
+  
+  .card-image {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .card-image-soc {
+    display: block;
+    background-color: rgb(0, 174, 217, 0);
+    position: absolute;
+    width: 269px;
+    height: 268px;
+    
+  }
+
+  .card-image-soc:hover {
+    display: block;
+    background-color: rgb(0, 174, 217);
+    position: absolute;
+    width: 269px;
+    height: 268px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  
+p {
+    margin: 0px;
+}
+
+.names {
+    position: absolute;
+    top: 280px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.function {
+    font-size: 14px;
+}
+
+.card-image-soc:hover .twitter {
+    width: 42px;
+    height: 42px;
+    background-image: url(img10/Twitter.png);
+}
+
+.card-image-soc:hover .fb {
+    width: 42px;
+    height: 42px;
+    background-image: url(img10/fb.png);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.card-image-soc:hover .g {
+    width: 42px;
+    height: 42px;
+    background-image: url(img10/g+.png);
+}
