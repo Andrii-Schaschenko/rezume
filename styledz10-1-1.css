@@ -1,0 +1,112 @@
+body {
+    font-family: sans-serif;
+    background-color: #b07cf7;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .blogtext {
+      width: 630px;
+      margin-top: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: white;
+      font-size: 17px;
+  }
+  h1 {
+      font-size: 90px;
+  }
+  
+  p {
+      margin: 0px;
+      margin-top: -5px;
+  }
+  .cards {
+    margin-left: auto;
+    margin-right: auto;
+      width: 1200px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+  }
+  .card {
+    margin: 15px;
+    color: #fff;
+    position: relative;
+    display: flex;
+    width: calc(100% / 3 - 30px);
+    height: 310px;
+
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+  }
+  
+  .card-content {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 100%;
+    padding: 15px;
+  }
+  
+  .card-title {
+    margin-top: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .card-description {
+    font-size: 13px;
+  }
+  
+  .card-date {
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    width: 200px;
+    height: 55px;
+    background-color: #f72b3b;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    text-transform: uppercase;    
+}
+
+.button {
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  
